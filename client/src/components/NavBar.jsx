@@ -42,7 +42,10 @@ const NavBar = () => {
       <NavLink to="/" onClick={() => setOpen(false)}>
         <img className="h-9" src={assets.logo} alt="dummyLogoColored" />
       </NavLink>
-
+         <NavLink to="/seller"><button class="px-6 py-2 border-2 primary-dull text-primary-dull rounded-full font-semibold hover:text-green transition cursor-pointer">
+  Seller Login
+</button>
+</NavLink>
       {/* Desktop Menu */}
       <div className="hidden sm:flex items-center gap-8">
         <NavLink to="/">Home</NavLink>
